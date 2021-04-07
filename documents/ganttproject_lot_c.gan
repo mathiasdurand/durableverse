@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="durableverse_lot_c" company="Trilobytes" webLink="" view-date="2020-05-06" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.10" locale="fr">
+    <description><![CDATA[GanttProject du lot C du jeu durableverse, version Trilobytes
+]]></description>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="167" order="0"/>
+        <field id="tpd4" name="Date de début" width="65" order="1"/>
+        <field id="tpd5" name="Date de fin" width="64" order="2"/>
+        <option id="color.recent"><![CDATA[#cc00cc #0000ff #ffff00 #ffff33 #3333ff #009933 #990099]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Maureen - C1" color="#990099" meeting="false" start="2020-05-06" duration="11" complete="0" thirdDate="2020-05-06" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Tâche C.1 : Changements visuels pendant le déroulement de la partie : 
+* Ajout du nom des joueurs 
+* Tri des cartes élèves en jeu en fonction deleur nature de FISE ou FISA 
+* Tri la main en fonction de la catégorie des cartes
+]]></notes>
+        </task>
+        <task id="3" name="Alex - C2" color="#009933" meeting="false" start="2020-05-06" duration="11" complete="100" thirdDate="2020-05-06" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Tâche C.2 : Création et implémentation de la notion de parcours : 
+Création de cartes de spécialisation pour les élèves 
+Référencement des personnels dans les parcours IN, MA, HPC, GL et PL]]></notes>
+        </task>
+        <task id="5" name="Sirine et Mathias - C3" color="#3333ff" meeting="false" start="2020-05-06" duration="11" complete="100" thirdDate="2020-05-06" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Tâche C.3 : Référent du lot C : 
+Création du GanttProject [Mathias]
+Création et merge final du dépôt git + découpage en tâches [Sirine]]]></notes>
+        </task>
+        <task id="7" name="Mathias - C4" color="#ffff33" meeting="false" start="2020-05-06" duration="11" complete="100" thirdDate="2020-05-06" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Tâche C.4 : 
+Création de cartes actions : 
+* Distanciation sociale : retire la moitié des FISE et la moitié des FISA de chaque joueur du plateau.
+* Soirée BdE : Retire un point de durabilité à toutes les cartes élève adverses
+
+Création d'une carte personnel :
+* Sandrine de l'accueil : n'a aucun effet sur le jeu]]></notes>
+        </task>
+        <task id="11" name="Mathias - C5" color="#ffff00" meeting="false" start="2020-05-06" duration="11" complete="100" thirdDate="2020-05-06" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Tâche C5 :
+Modification de l'interface :
+* Adaptation de l'interface à la notion de parcours pour les cartes élève et personnel]]></notes>
+        </task>
+        <task id="13" name="Sirine - C6" color="#0000ff" meeting="false" start="2020-05-06" duration="11" complete="0" thirdDate="2020-05-06" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Tâche C.5 : Création de cartes personnel : 
+* 3 cartes personnel HPC dont Dossantos
+* Modification des cartes existantes et création d'autres : toutes modification nécessaire pour avoir 3 profs par filière]]></notes>
+        </task>
+        <task id="17" name="Maureen - C7" color="#cc00cc" meeting="false" start="2020-05-06" duration="11" complete="0" thirdDate="2020-05-06" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Tâche C.6 : Création de nouvelles annexes : 
+* Tableau récapitulatif de tous les effets, des nouveaux personnels...]]></notes>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
